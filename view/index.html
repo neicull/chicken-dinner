@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+    <link rel="shortcut icon" href="bootstrap-3.0.0/assets/ico/favicon.png">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Chicken Dinner</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
@@ -32,73 +32,100 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Chicken Dinner</a>
+          <a class="navbar-brand" href="index.html">Chicken Dinner LOGO</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="about.html">About</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
         </div><!--/.navbar-collapse -->
       </div>
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Winner, winner!</h1>
-        <p>This is pretty universal template it includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <div class="container">
+        <div class="input-group input-group-lg">
+        <input type="text" value="Enter a keyword" class="form-control">
+        <span class="input-group-btn"><button class="btn btn-primary" type="button">Go!</button></span>
+        </div>
+        
         <div id="huge-map" class="huge-map panel">Huge Map</div>
-      </div>
+             
+        <a class="btn btn-primary btn-lg" data-toggle="collapse" data-parent="#accordion" href="#collapse-data-more">
+        Learn More About This Data
+        </a>
+        <div id="collapse-data-more" class="collapse">
+        <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><a href="detail.html">Detail Page Link</a></td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+    </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>Visualize Data</h2>
+          <p>Learn more from your spreadsheets and lists. Make huge data more meaningful. Analyze country wide data in moments.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h2>Target opportunities</h2>
+          <p>Zero in on the best salaries and job markets. Find the best place to move your family. Discover where your best client prospects are</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
        </div>
         <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Identify new markets</h2>
+          <p>Find new areas to operate. Spend time in the right places.</p>
           <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
         </div>
       </div>
 
       <hr>
+      <h5 class="text-muted">Data Partners</h5>
+      <ul class="list-inline text-muted">
+          <li>EmploymentGuide.com</li>
+          <li>AeroTrader.com</li>
+          <li>Homes.com</li>
+          <li>ForRent.com</li>
+          <li>Cycletrader.com</li>
+      </ul>
+      <hr>
 
-      <footer>
-        <p>&copy; Company 2013</p>
+      <footer class="text-muted">
+      <small>
+        <p class="pull-left">&copy; Chicken Dinner - Dominion Enterprises 2013</p>
+        <p class="pull-right">Winning data everytime.</p>
+      </small>
       </footer>
     </div> <!-- /container -->
 
@@ -106,7 +133,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../../assets/js/jquery.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-3.0.0/assets/js/jquery.js"></script>
+    <script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
