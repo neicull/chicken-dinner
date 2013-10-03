@@ -1,0 +1,12 @@
+.counties {
+  fill: none;
+  //stroke: #000;
+  //stroke-width: 0.08px;
+}
+
+.states {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+}
